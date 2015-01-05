@@ -1,0 +1,18 @@
+{
+    "name": "prontotype/data-plugin",
+    "type": "prontotype-plugin",
+    "require": {
+        "prontotype/composer-installer": "dev-master"
+    },
+    "repositories": [
+        {
+            "type":"vcs",
+            "url":"/Users/mark/Projects/clearleft/prontotype-composer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Prontotype\\Plugins\\Data\\": "src/"
+        }
+    }
+}
