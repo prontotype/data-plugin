@@ -14,5 +14,8 @@
         "psr-4": {
             "Prontotype\\Plugins\\Data\\": "src/"
         }
+    },
+    "extra": {
+        "class": "Prontotype\\Plugins\\Data\\Plugin"
     }
 }
