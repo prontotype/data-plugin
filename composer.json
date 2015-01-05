@@ -16,6 +16,6 @@
         }
     },
     "extra": {
-        "class": "Prontotype\\Plugins\\Data\\Plugin"
+        "provider": "Prontotype\\Plugins\\Data\\DataProvider"
     }
 }
