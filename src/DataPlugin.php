@@ -33,9 +33,7 @@ class DataPlugin extends AbstractPlugin implements PluginInterface
 
     public function getConfig()
     {
-        return array(
-            'test' => 'foooo'
-        );
+        return 'config/config.yml';
     }
     
 }

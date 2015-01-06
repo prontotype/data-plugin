@@ -2,7 +2,8 @@
     "name": "prontotype/data-plugin",
     "type": "prontotype-plugin",
     "require": {
-        "prontotype/composer-installer": "dev-master"
+        "prontotype/composer-installer": "dev-master",
+        "allmarkedup/dayglo": "~0.1",
     },
     "repositories": [
         {
