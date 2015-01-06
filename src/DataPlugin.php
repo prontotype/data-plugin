@@ -11,7 +11,12 @@ use Amu\Dayglo\ParserCollection;
 
 class DataPlugin extends AbstractPlugin implements PluginInterface
 {
-    public function boot()
+    public function getConfig()
+    {
+        return 'config/config.yml';
+    }
+
+    public function register()
     {
         $conf = $this->container->make('prontotype.config');
         $parsers = new ParserCollection([
@@ -31,9 +36,4 @@ class DataPlugin extends AbstractPlugin implements PluginInterface
         );
     }
 
-    public function getConfig()
-    {
-        return 'config/config.yml';
-    }
-    
 }
