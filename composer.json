@@ -5,12 +5,6 @@
         "prontotype/composer-installer": "dev-master",
         "allmarkedup/dayglo": "~0.1"
     },
-    "repositories": [
-        {
-            "type":"vcs",
-            "url":"/Users/mark/Projects/clearleft/prontotype-composer"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Prontotype\\Plugins\\Data\\": "src/"
