@@ -3,7 +3,7 @@
     "type": "prontotype-plugin",
     "require": {
         "prontotype/composer-installer": "dev-master",
-        "allmarkedup/dayglo": "~0.1",
+        "allmarkedup/dayglo": "~0.1"
     },
     "repositories": [
         {
