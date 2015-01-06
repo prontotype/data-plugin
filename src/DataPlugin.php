@@ -1,14 +1,15 @@
 <?php namespace Prontotype\Plugins\Data;
 
 use Prontotype\Container;
-
+use Prontotype\Plugins\AbstractPlugin;
+use Prontotype\Plugins\PluginInterface;
 use Prontotype\Config;
 use Prontotype\Plugins\ProviderInterface;
 use Amu\Dayglo\Parser;
 use Amu\Dayglo\Loader;
 use Amu\Dayglo\ParserCollection;
 
-class DataPlugin
+class DataPlugin extends AbstractPlugin implements PluginInterface
 {
     public function boot()
     {
