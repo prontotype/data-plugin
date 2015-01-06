@@ -16,6 +16,6 @@
         }
     },
     "extra": {
-        "provider": "Prontotype\\Plugins\\Data\\DataProvider"
+        "provider": "Prontotype\\Plugins\\Data\\DataPlugin"
     }
 }
